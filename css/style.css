@@ -1,0 +1,68 @@
+/* attributo comune */
+* {
+  box-sizing: border-box;
+}
+/* colore di sfondo */
+body{
+  background: #654321;
+}
+/* sezione superiore */
+.header-top{
+  height: 100px;
+  line-height: 100px;
+
+}
+
+.logo{
+  width: 80px;
+  vertical-align: middle; /* allineamento verticale */
+}
+
+h1{
+  display: inline; /* cambio attributo */
+  color: white;
+}
+/* sezione inferiore */
+.header-bottom button{
+  border-radius: 2px;
+  border: 0;
+}
+/* sezione superiore */
+.top-main h2{
+  color: white;
+}
+
+#number{
+  display: inline-block;
+  background: orange;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  text-align: center; /* allineamento centrale */
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.email{
+  border: 1px solid black;
+  background: grey;
+  padding: 3px;
+}
+
+.email p{
+  display: inline;
+}
+
+.email.read{
+  background: white;
+}
+/* termine pagina */
+#footer{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+#footer i{
+  font-size: 15px;
+}
